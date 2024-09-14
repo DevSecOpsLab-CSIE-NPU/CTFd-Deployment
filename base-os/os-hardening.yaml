@@ -1,0 +1,11 @@
+---
+- name: Apply security hardening
+  hosts: localhost
+  become: true
+  collections:
+    - devsec.hardening
+
+  roles:
+    - role: devsec.hardening.os_hardening
+    - role: devsec.hardening.ssh_hardening
+

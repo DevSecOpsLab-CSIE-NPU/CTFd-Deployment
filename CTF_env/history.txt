@@ -1,0 +1,135 @@
+    1  pwd
+    2  ls
+    3  git clone https://github.com/DevSecOpsLab-CSIE-NPU/CTFd-Deployment
+    4  wget https://gist.githubusercontent.com/AugustChaoTW/0499e7b83ae9164c92a4aa462cc7b7f5/raw/3b8f7dd15dd5bcc6f0e0f3b1da1f6cb025a302bd/config_me.sh
+    5  bash config_me.sh 
+    6  ls
+    7  exit
+    8  ls
+    9  dmesg
+   10  ls
+   11  pwd
+   12  ls
+   13  sudo apt update
+   14  apt list --upgradable
+   15  pwd
+   16  ls
+   17  cd CTFd-Deployment/
+   18  ls
+   19  mkdir base-os
+   20  cd base-os/
+   21  ls
+   22  sudo apt search ansible
+   23  ansible-galaxy collection install devsec.hardening
+   24  sudo apt install -U python3
+   25  sudo apt install -U python3 -y
+   26  ansible-galaxy collection install devsec.hardening
+   27  python3 -m pip -U install ansible
+   28  python3 -m pip install -U ansible
+   29  python3 -m pip install --user ansible-core
+   30  python3 -m pip -V
+   31  python3 -m pip install --upgrade --user ansible
+   32  sudo apt-get update && sudo apt-get -y install python3 python3-pip python3-dev
+   33  python3 -m pip install --upgrade --user ansible
+   34  python3 -m pip install --upgrade ansible
+   35  sudo ansible-core
+   36  sudo pip3 install ansible
+   37  python -m venv my-venv
+   38  python3 -m venv my-venv
+   39  sudo apt install python3.12-venv
+   40  python3 -m venv my-venv
+   41  . ./my-venv/
+   42  . ./my-venv/bin/activate
+   43  pip3 install ansible
+   44  ansible-galaxy collection install devsec.hardening
+   45  ansible-galaxy -h
+   46  ansible-galaxy collction
+   47  ansible-galaxy collection
+   48  ansible-galaxy collection list
+   49  vi os-hardening.yaml
+   50  ansible-playbook os-hardening.yaml 
+   51  vi os-hardening.yaml 
+   52  ansible-playbook os-hardening.yaml 
+   53  ansible-galaxy collection install community.docker
+   54  vi docker-install.yaml
+   55  ansible-playbook docker-install.yaml -i localhost
+   56  ansible-galaxy install geerlingguy.docker
+   57  vi docker-install.yaml 
+   58  ansible-playbook docker-install.yaml -i localhost
+   59  docker 
+   60  docker ps -a
+   61  exit
+   62  htop
+   63  ls
+   64  dmesg
+   65  docker ps -a
+   66  sudo docker ps -a
+   67  clear
+   68  ls
+   69  git clone --depth=1 https://github.com/Bash-it/bash-it.git ~/.bash_it
+   70  ~/.bash_it/install.sh
+   71  ls
+   72  source ~/.bashrc
+   73  ls
+   74  dmesg
+   75  ls
+   76  clear
+   77  ls
+   78  mkdir mysql
+   79  cd mysql/
+   80  ls
+   81  cd ../
+   82  ls
+   83  cd ../
+   84  ls
+   85  cd base-os/
+   86  l,s
+   87  ls
+   88  . ./my-venv/bin/activate
+   89  pip install docker-compose
+   90  ls
+   91  cd ../
+   92  ls
+   93  cd CTF_env/
+   94  ls
+   95  cd mysql/
+   96  ls
+   97  vi docker-compose.yml
+   98  sudo apt install vim
+   99  git clone --depth=1 https://github.com/amix/vimrc.git ~/.vim_runtime
+  100  ls
+  101  cd ~
+  102  ls
+  103  vi .bashrc
+  104  ls
+  105  pwd
+  106  ls
+  107  vi ~/.screenrc 
+  108  ls
+  109  exit
+  110  sh ~/.vim_runtime/install_awesome_vimrc.sh
+  111  exit
+  112  clera
+  113  ls
+  114  exit
+  115  ls
+  116  pwd
+  117  ls
+  118  cd CTFd-Deployment/
+  119  ls
+  120  cd CTF_env/
+  121  ls
+  122  cd mysql/
+  123  ls
+  124  vi docker-compose.yml 
+  125  vi dot_env
+  126  ls
+  127  vi docker-compose.yml 
+  128  ls
+  129  git staus
+  130  git status
+  131  cd ../../
+  132  ls
+  133  cd CTF_env/
+  134  ls
+  135  history > history.txt
