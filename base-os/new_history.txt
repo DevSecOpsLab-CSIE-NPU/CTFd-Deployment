@@ -1,0 +1,205 @@
+    1  ifconfig
+    2  ip addr
+    3  exit
+    4  ls
+    5  exit
+    6  dmesg
+    7  ls
+    8  git clone https://github.com/DevSecOpsLab-CSIE-NPU/CTFd-Deployment
+    9  apt update
+   10  sudo apt update
+   11  sudo apt install git
+   12  sudo vi /etc/apt/sources.list
+   13  sudo apt install vim -y
+   14  sudo vi /etc/apt/sources.list
+   15  sudo vi /etc/apt/sources.list.d/ubuntu.sources
+   16  sudo apt update
+   17  sudo apt install git
+   18  sudo apt install git -y
+   19  git clone https://github.com/DevSecOpsLab-CSIE-NPU/CTFd-Deployment
+   20  ls
+   21  cd CTFd-Deployment/
+   22  ls
+   23  cd base-os/
+   24  ls
+   25  vi history.txt
+   26  wget https://gist.githubusercontent.com/AugustChaoTW/0499e7b83ae9164c92a4aa462cc7b7f5/raw/3b8f7dd15dd5bcc6f0e0f3b1da1f6cb025a302bd/config_me.sh
+   27  bash config_me.sh
+   28  vi config_me.sh
+   29  ls
+   30  vi config_me.sh
+   31  vi history.txt
+   32  cd ../
+   33  ls
+   34  cd CTF_env/
+   35  ls
+   36  vi history.txt
+   37  ls
+   38  cd
+   39  git clone --depth=1 https://github.com/amix/vimrc.git ~/.vim_runtime
+   40  cd -
+   41  vi history.txt
+   42  ls
+   43  cd
+   44  sh ~/.vim_runtime/install_awesome_vimrc.sh
+   45  ls
+   46  cd -
+   47  ls
+   48  vi history.txt
+   49  ls
+   50  cd ../
+   51  ls
+   52  vi CTF_env/
+   53  ls
+   54  cd CTF_env/
+   55  ls
+   56  vi history.txt
+   57  cd
+   58  ls
+   59  wget https://gist.githubusercontent.com/mosquito/d109e44a2c6884c34f9c/raw/ebbd24b8f171dc6402ca055eee47c256754acf84/.screenrc
+   60  screen
+   61  sudo apt install screen
+   62  screen
+   63  ls
+   64  vi .screenrc
+   65  ls
+   66  pwd
+   67  ls
+   68  git clone --depth=1 https://github.com/Bash-it/bash-it.git ~/.bash_it
+   69  ~/.bash_it/install.sh
+   70  ls
+   71  exit
+   72  ls
+   73  dmesg
+   74  ls
+   75  cd CTFd-Deployment/
+   76  ls
+   77  pwd
+   78  screen
+   79  clear
+   80  ls
+   81  apt-get clean && apt-get update
+   82  apt-get install locales
+   83  echo "LC_ALL=en_US.UTF-8" >> /etc/environment
+   84  echo "en_US.UTF-8 UTF-8" >> /etc/locale.gen
+   85  echo "LANG=en_US.UTF-8" > /etc/locale.conf
+   86  locale-gen en_US.UTF-8
+   87  sudo su
+   88  ls
+   89  clear
+   90  ls
+   91  locale-gen en_US.UTF-8
+   92  sudo locale-gen en_US.UTF-8
+   93  clear
+   94  ls
+   95  export LC_ALL="en_US.utf-8"
+   96  clear
+   97  ls
+   98  sudo dpkg-reconfigure locales
+   99  clear
+  100  ls
+  101  vi ~/.bashrc
+  102  ls
+  103  sudo su -
+  104  ls
+  105  sudo localedef -i en_US -f UTF-8 en_US.UTF-8
+  106  ls
+  107  sudo vi /etc/locale.conf
+  108  localedef -v -c -i en_US -f UTF-8 en_US.UTF-8
+  109  sudo localedef -v -c -i en_US -f UTF-8 en_US.UTF-8
+  110  ls
+  111  exit
+  112  exit
+  113  ls
+  114  dmesg
+  115  ls
+  116  screen -r -d
+  117  screen -r
+  118  screen
+  119  sl
+  120  ls
+  121  pwd
+  122  ls
+  123  dmesg
+  124  ls
+  125  cd CTFd-Deployment/
+  126  ls
+  127  cd base-os/
+  128  ls
+  129  vi history.txt
+  130  sudo apt install -U python3 -y
+  131  sudo apt-get update && sudo apt-get -y install python3 python3-pip python3-dev
+  132  sudo apt install python3-venv
+  133  sudo apt install python3-venv -y
+  134  ls
+  135  cd CTFd-Deployment/
+  136  ls
+  137  python3 -m venv .venv
+  138  . .venv/bin/activate
+  139  pwd
+  140  ls
+  141  which python
+  142  pip3 install -U ansible
+  143  ansible-galaxy collection install devsec.hardening
+  144  ls
+  145  cd base-os/
+  146  ls
+  147  ansible-playbook os-hardening.yaml
+  148  ansible-playbook -vvv os-hardening.yaml
+  149  sudo vi /etc/group-
+  150  ansible-playbook -vvv os-hardening.yaml
+  151  sudo addgroup syslog
+  152  sudo vi /etc/group-
+  153  sudo vi /etc/group
+  154  ansible-playbook -vvv os-hardening.yaml
+  155  sudo service restart sshd
+  156  sudo service sshd restart
+  157  journalctl -xeu ssh.service
+  158  ls
+  159  screen -r
+  160  cd CTFd-Deployment/
+  161  ls
+  162  cd
+  163  cd -
+  164  . ./.venv/bin/activate
+  165  ls
+  166  cd CTF_env/
+  167  ls
+  168  cd ../base-os/
+  169  ls
+  170  ansible-playbook -vvv os-hardening.yaml
+  171  sudo su -
+  172  ansible-playbook -vvv os-hardening.yaml
+  173  pwd
+  174  ls
+  175  screen -r -d
+  176  clear
+  177  ls
+  178  cd CTFd-Deployment/
+  179  ls
+  180  cd base-os/
+  181  ls
+  182  history
+  183  ls
+  184  vi history.txt
+  185  ansible-galaxy collection install community.docker
+  186  cd ../
+  187  ls
+  188  . ./.venv/bin/activate
+  189  ansible-galaxy collection install community.docker
+  190  ls
+  191  cd base-os/
+  192  ls
+  193  vi history.txt
+  194  ansible-playbook docker-install.yaml -i localhost
+  195  ansible-galaxy collection install community.docker
+  196  ansible-playbook docker-install.yaml -i localhost
+  197  ansible-galaxy role install geerlingguy.docker
+  198  ansible-playbook docker-install.yaml -i localhost
+  199  sudo su -
+  200  ansible-galaxy role install geerlingguy.docker
+  201  ansible-playbook docker-install.yaml -i localhost
+  202  ls
+  203  sudo docker ps -a
+  204  history
+  205  history > new_history.txt
